@@ -1,6 +1,6 @@
 <?php
 
-namespace Test;
+namespace HealMe;
 
 use pocketmine\Server;
 use pocketmine\Player;
@@ -18,12 +18,10 @@ class Main extends PluginBase{
 
         switch($cmd->getName){
 
-            case
-"test":
+            case "healme":
                 if($sender instanceof Playet){
 
-                    $sender->sendMessage("It is a test text with my own plugin");
-
+                    $sender->setHealth(20);
                 }
             break;
 
