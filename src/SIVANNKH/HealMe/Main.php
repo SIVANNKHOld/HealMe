@@ -16,11 +16,11 @@ class Main extends PluginBase{
 
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
 
-        switch($cmd->getName){
+        switch($cmd->getName()){
 
             case "healme":
-                if($sender instanceof Playet){
-
+                if($sender instanceof Player){
+                    $sender->sendMessage("Your heal is set!");
                     $sender->setHealth(20);
                 }
             break;
