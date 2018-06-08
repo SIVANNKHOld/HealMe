@@ -1,5 +1,5 @@
 name: HealMe
-main: SIVANNKH\HealMe\Main
+main: HealMe\Main
 author: SIVANNKH
 version: 1.0
 api: [3.0.0-ALPHA12]
