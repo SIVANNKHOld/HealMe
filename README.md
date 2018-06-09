@@ -6,7 +6,7 @@ Just heal yourself by typing the command.
 ---
 
 ## HOW TO INSTALL
-* Step 1: Download [FeedMe.phar](https://poggit.pmmp.io/ci/SIVANNKH/HealMe/HealMe)
+* Step 1: Download [HealMe.phar](https://poggit.pmmp.io/ci/SIVANNKH/HealMe/HealMe)
 * Step 2: Put it on your plugins folder
 * Step 3: Restart your server
 
