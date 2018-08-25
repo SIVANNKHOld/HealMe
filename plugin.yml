@@ -1,8 +1,8 @@
 name: HealMe
 main: HealMe\Main
 author: SIVANNKH
-version: 1.1
-api: [3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.0.0-ALPHA12]
+version: 1.2
+api: 3.0.0
 
 commands:
  healme:
