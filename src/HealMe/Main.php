@@ -12,6 +12,10 @@ use pocketmine\command\CommandSender;
 class Main extends PluginBase{
 
     public function onEnable(){
+        $this->getLogger()->info("HealMe by SIVANNKH has been enabled!");
+    }
+    public function onDisable(){
+        $this->getLogger()->info("HealMe by SIVANNKH has been disabled!");
     }
 
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool {
