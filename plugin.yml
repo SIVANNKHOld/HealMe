@@ -6,5 +6,5 @@ api: 3.0.0
 
 commands:
  healme:
-  description: "HealMe by SIVANNKH"
+  description: "Heal yourself"
   permission: healme.command
